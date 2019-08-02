@@ -1,0 +1,12 @@
+{
+    "activity": [
+        {
+            "title": "Hiking",
+            "description": "Hiking on ...",
+            "when": "Aug. 20, 2019",
+            "where": "TBD",
+            "upcoming": true,
+            "timeline": {}
+        }
+    ]
+}
