@@ -45,10 +45,10 @@ export default class LeadershipScreen extends Component {
 }
 
 LeadershipScreen.navigationOptions = ({ navigation }) => ({
-  title: "Leadership",
+  title: "Team",
   headerLeft: (
       <TouchableOpacity
-          onPress={() => navigation.navigate('HomeStack')}>
+          onPress={() => navigation.navigate('MainStack')}>
           <Ionicons 
         name={Platform.OS === 'ios' ? 'ios-arrow-back' : 'md-arrow-back'}
         size={32} color="#000" style={{paddingLeft: 10}}/>
